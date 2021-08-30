@@ -112,7 +112,7 @@ PKGV = "2.7+git${GITPKGV}"
 
 ENIGMA2_BRANCH ?= "develop"
 GITHUB_URI ?= "git://github.com"
-SRC_URI = "${GITHUB_URI}/OpenPLi/${BPN}.git;branch=${ENIGMA2_BRANCH}"
+SRC_URI = "${GITHUB_URI}/atefganm/enigma2.git;branch=${ENIGMA2_BRANCH}"
 
 LDFLAGS_prepend = " -lxml2 "
 
