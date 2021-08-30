@@ -7,6 +7,7 @@ PROVIDES += "virtual/blindscan-dvbs virtual/blindscan-dvbc"
 RPROVIDES_${PN} += "virtual/blindscan-dvbs virtual/blindscan-dvbc"
 
 DEPENDS = "ncurses"
+INSANE_SKIP_${PN} += "already-stripped"
 
 PV = "1.12"
 
