@@ -12,7 +12,7 @@ MACHINE_KERNEL_PR = "${DMPV}-"
 require linux-dreambox-dmamlogic.inc
 
 SRC_URI = "https://dreamboxupdate.com/download/opendreambox/linux-meson64/linux-meson64-v${PV}-${DMPV}.tar.xz \
-	file://${OPENVISION_BASE}/meta-openvision/recipes-linux/kernel-patches/kernel-add-support-for-gcc${VISIONGCCVERSION}.patch \
+	file://${OPENPLI_BASE}/meta-openpli/recipes-linux/kernel-patches/kernel-add-support-for-gcc${PLIGCCVERSION}.patch \
 	file://defconfig \
 	"
 

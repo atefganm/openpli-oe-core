@@ -30,7 +30,7 @@ SRC_URI = " \
 	file://0017-makefile-silence-packed-not-aligned-warn.patch \
 	file://0018-remove-redundant-YYLOC-global-declaration-for-gcc10.patch \
 	file://defconfig \
-	file://${OPENVISION_BASE}/meta-openvision/recipes-linux/kernel-patches/kernel-add-support-for-gcc${VISIONGCCVERSION}.patch \
+	file://${OPENPLI_BASE}/meta-openpli/recipes-linux/kernel-patches/kernel-add-support-for-gcc${PLIGCCVERSION}.patch \
 	"
 
 SRC_URI[kernel.md5sum] = "b621207b3f6ecbb67db18b13258f8ea8"

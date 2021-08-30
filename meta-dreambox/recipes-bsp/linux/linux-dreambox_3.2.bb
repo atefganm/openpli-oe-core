@@ -34,7 +34,7 @@ SRC_URI = " \
 	file://024-rtl8712-fix-warnings.patch \
 	file://025-fixme-hardfloat.patch \
 	file://026-correctly-initiate-nand-flash-ecc-config-when-old-2n.patch \
-	file://${OPENVISION_BASE}/meta-openvision/recipes-linux/kernel-patches/kernel-add-support-for-gcc${VISIONGCCVERSION}.patch \
+	file://${OPENPLI_BASE}/meta-openpli/recipes-linux/kernel-patches/kernel-add-support-for-gcc${PLIGCCVERSION}.patch \
 	file://028-move-atomic-flags-field-after-cputime-expires-field.patch \
 	file://029-dvb_frontend-backport-multistream-support.patch \
 	file://030-STV-Add-MIS-PLS-support.patch \
